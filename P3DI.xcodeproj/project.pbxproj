@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D67938A315723DF300A7FE68 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D67938A215723DF300A7FE68 /* main.cpp */; };
+		D67938A515723DF300A7FE68 /* P3DI.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D67938A415723DF300A7FE68 /* P3DI.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D679389C15723DF200A7FE68 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				D67938A515723DF300A7FE68 /* P3DI.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D679389E15723DF200A7FE68 /* P3DI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = P3DI; sourceTree = BUILT_PRODUCTS_DIR; };
+		D67938A215723DF300A7FE68 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D67938A415723DF300A7FE68 /* P3DI.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = P3DI.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D679389B15723DF200A7FE68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D679389315723DF200A7FE68 = {
+			isa = PBXGroup;
+			children = (
+				D67938A115723DF200A7FE68 /* P3DI */,
+				D679389F15723DF200A7FE68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D679389F15723DF200A7FE68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D679389E15723DF200A7FE68 /* P3DI */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D67938A115723DF200A7FE68 /* P3DI */ = {
+			isa = PBXGroup;
+			children = (
+				D67938A215723DF300A7FE68 /* main.cpp */,
+				D67938A415723DF300A7FE68 /* P3DI.1 */,
+			);
+			path = P3DI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D679389D15723DF200A7FE68 /* P3DI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D67938A815723DF300A7FE68 /* Build configuration list for PBXNativeTarget "P3DI" */;
+			buildPhases = (
+				D679389A15723DF200A7FE68 /* Sources */,
+				D679389B15723DF200A7FE68 /* Frameworks */,
+				D679389C15723DF200A7FE68 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = P3DI;
+			productName = P3DI;
+			productReference = D679389E15723DF200A7FE68 /* P3DI */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D679389515723DF200A7FE68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D679389815723DF200A7FE68 /* Build configuration list for PBXProject "P3DI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D679389315723DF200A7FE68;
+			productRefGroup = D679389F15723DF200A7FE68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D679389D15723DF200A7FE68 /* P3DI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D679389A15723DF200A7FE68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67938A315723DF300A7FE68 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D67938A615723DF300A7FE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D67938A715723DF300A7FE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D67938A915723DF300A7FE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D67938AA15723DF300A7FE68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D679389815723DF200A7FE68 /* Build configuration list for PBXProject "P3DI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67938A615723DF300A7FE68 /* Debug */,
+				D67938A715723DF300A7FE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D67938A815723DF300A7FE68 /* Build configuration list for PBXNativeTarget "P3DI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D67938A915723DF300A7FE68 /* Debug */,
+				D67938AA15723DF300A7FE68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D679389515723DF200A7FE68 /* Project object */;
+}
